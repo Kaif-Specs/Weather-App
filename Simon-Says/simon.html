@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>.container {
+  display: grid;
+  grid-template-columns: repeat(2, 150px);
+  gap: 20px;
+}
+
+.btn {
+  height: 150px;
+  width: 150px;
+  border-radius: 20px;
+}
+
+.red { background: red; }
+.green { background: green; }
+.blue { background: blue; }
+.yellow { background: yellow; }
+
+.flash {
+  background: white;
+}
+</style>
+<body>
+    <h2 id="level">Press any key to start</h2>
+
+
+<div class="container">
+  <div class="btn red" id="red"></div>
+  <div class="btn green" id="green"></div>
+  <div class="btn yellow" id="yellow"></div>
+  <div class="btn blue" id="blue"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
