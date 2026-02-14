@@ -4,4 +4,4 @@ function isAnagram(str1, str2) {
   return s1 === s2;
 }
 
-console.log(isAnagram("listen","silent")); 
+console.log(isAnagram("lister","silent")); 
